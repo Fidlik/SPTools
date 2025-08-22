@@ -281,7 +281,7 @@ function Compare-SPMachineKeysInRoot {
 
 # ------------------ Quick-start examples ------------------
 # Single server folder (auto-pick two newest files):
-# Compare-SPMachineKeys -Path "E:\temp\SharePoint_Config_MachineKeys\RKAMVS6HD03"
+# Compare-SPMachineKeys -Path "E:\temp\SharePoint_Config_MachineKeys\SERVERNAME"
 
 # Root with multiple servers (creates per-server CSVs):
 # Compare-SPMachineKeysInRoot -Root  "E:\temp\SharePoint_Config_MachineKeys" `
