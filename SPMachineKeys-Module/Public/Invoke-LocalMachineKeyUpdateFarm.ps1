@@ -27,7 +27,7 @@ function Invoke-LocalMachineKeyUpdateFarm {
     param(
         [string[]]$Servers,  # optional; if omitted we'll auto-discover
 
-        [switch]$IncludeCentralAdmin,
+        [switch]$ExcludeCentralAdmin,
         [switch]$RestartIIS,
 
         [ValidateSet('CredSSP','Kerberos','Default')]
@@ -43,7 +43,8 @@ function Invoke-LocalMachineKeyUpdateFarm {
 
         # ---- Resolve WebApp URLs locally ----
         $allWAs = Get-SPWebApplication -IncludeCentralAdministration
-        if (-not $IncludeCentralAdmin) {
+        if ($ExcludeCentralAdministration) {
+            # Only remove Central Admin if user explicitly asked
             $allWAs = $allWAs | Where-Object { -not $_.IsAdministrationWebApplication }
         }
 
