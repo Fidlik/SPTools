@@ -1,0 +1,20 @@
+{
+  "name": "NintexFix_20250902",
+  "description": "Nintex + WF compiler auth types refresh",
+  "authorizedTypes": [
+    { "Assembly": "Microsoft.Office.Access.Server.Application, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c", "Namespace": "Microsoft.Office.Access.Server.Macro.Runtime", "TypeName": "*", "Authorized": "True" },
+    { "Assembly": "Microsoft.SharePoint.WorkflowActions, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c", "Namespace": "Microsoft.SharePoint.WorkflowActions", "TypeName": "*", "Authorized": "True" },
+    { "Assembly": "Microsoft.SharePoint.WorkflowActions, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c", "Namespace": "Microsoft.SharePoint.WorkflowActions.WithKey", "TypeName": "*", "Authorized": "True" },
+    { "Assembly": "Microsoft.SharePoint.WorkflowActions, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null", "Namespace": "Microsoft.SharePoint.WorkflowActions.WithKey", "TypeName": "*", "Authorized": "True" },
+    { "Assembly": "Nintex.Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=913f6bae0ca5ae12", "Namespace": "Nintex.Workflow", "TypeName": "RunNowParameterOptions", "Authorized": "True" },
+    { "Assembly": "Nintex.Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=913f6bae0ca5ae12", "Namespace": "Nintex.Workflow.", "TypeName": "", "Authorized": "True" },
+    { "Assembly": "Nintex.Workflow.Live, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bd539bd4aa1e2820", "Namespace": "Nintex.Workflow.Live.Actions", "TypeName": "*", "Authorized": "True" },
+    { "Assembly": "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Namespace": "System.CodeDom", "TypeName": "*", "Authorized": "True" },
+    { "Assembly": "System.Workflow.ComponentModel, Version=3.0.0.0, Culture=neutral,PublicKeyToken=31bf3856ad364e35", "Namespace": "System.Workflow.*", "TypeName": "ArrayExtension", "Authorized": "True" },
+    { "Assembly": "System.Workflow.ComponentModel, Version=3.0.0.0, Culture=neutral,PublicKeyToken=31bf3856ad364e35", "Namespace": "System.Workflow.*", "TypeName": "TypeExtension", "Authorized": "True" },
+    { "Assembly": "System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral,PublicKeyToken=31bf3856ad364e35", "Namespace": "System.Workflow.*", "TypeName": "ArrayExtension", "Authorized": "True" },
+    { "Assembly": "System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral,PublicKeyToken=31bf3856ad364e35", "Namespace": "System.Workflow.*", "TypeName": "TypeExtension", "Authorized": "True" },
+    { "Assembly": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Namespace": "System", "TypeName": "Int64", "Authorized": "True" },
+    { "Assembly": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Namespace": "System", "TypeName": "Int64", "Authorized": "True" }
+  ]
+}
